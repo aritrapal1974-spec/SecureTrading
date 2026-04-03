@@ -1,0 +1,30 @@
+{
+  "name": "secure-trading-orchestrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^3.1.3",
+    "axios": "^1.14.0",
+    "better-sqlite3": "^12.8.0",
+    "dotenv": "^17.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.5.0",
+    "@types/uuid": "^10.0.0"
+  }
+}

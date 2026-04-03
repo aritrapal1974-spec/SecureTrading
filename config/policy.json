@@ -1,0 +1,11 @@
+{
+  "allowedTickers": ["AAPL", "MSFT", "GOOGL", "AMZN", "META"],
+  "maxBudgetPerTrade": 3000,
+  "maxQuantityPerTrade": 100,
+  "signatureValidityMs": 30000,
+  "allowAfterHours": true,
+  "rateLimiting": {
+    "maxTradesPerWindow": 10,
+    "windowMs": 60000
+  }
+}
